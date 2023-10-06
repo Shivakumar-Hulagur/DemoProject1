@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.DemoProject.TestScripts.VerifyAddToCartTest">
+      <class name="com.DemoProject.TestScripts.RegisterTest">
         <methods>
-          <include name="addToCartComputers"/>
           <include name="configBC"/>
+          <include name="configAC"/>
+          <include name="RegisterintoApplication"/>
         </methods>
-      </class> <!-- com.DemoProject.TestScripts.VerifyAddToCartTest -->
+      </class> <!-- com.DemoProject.TestScripts.RegisterTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

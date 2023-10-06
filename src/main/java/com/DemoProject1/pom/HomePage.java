@@ -59,6 +59,12 @@ public class HomePage {
 		Assert.assertEquals(actualProductName, expProduct);
 	}
 	
+
+	public void ClickOnRegisterLink() {
+		registerLink.click();
+		
+	}
+	
 	
 	
 	
