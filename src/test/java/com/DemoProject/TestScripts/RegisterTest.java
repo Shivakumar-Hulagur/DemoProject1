@@ -11,7 +11,7 @@ public class RegisterTest extends BaseTest
 {
 	
 	@Test
-	public void RegisterintoApplication()
+	public void registerIntoApplication()
 	{
 		//step01- Go to home page click on register link
 		HomePage hp=new HomePage(driver);
