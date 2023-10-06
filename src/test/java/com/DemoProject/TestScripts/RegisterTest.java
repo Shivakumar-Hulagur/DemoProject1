@@ -8,7 +8,7 @@ public class RegisterTest {
 	@Test
 	public void RegisterintoApplication()
 	{
-		 driver=new ChromeDriver();
+		 //driver=new ChromeDriver();
 	}
 
 }
